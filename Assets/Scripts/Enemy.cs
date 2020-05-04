@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-
+    [Header("Enemy")]
     [SerializeField] int health;
     [SerializeField] float shotCounter;
     [SerializeField] float minTimeBetweenShots = 0.2f;
     [SerializeField] float maxTimeBetweenShots = 3f;
-
+    [Header("Projectile")]
     [SerializeField] GameObject enemyLaser;
     [SerializeField] float projectileSpeed;
+    [Header("VFX")]
+    [SerializeField] GameObject explosion;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -53,7 +56,9 @@ public class Enemy : MonoBehaviour
         damageDealer.Hit();
         if (health <= 0)
         {
+            GameObject deathEffect = Instantiate(explosion, transform.position, Quaternion.identity) as GameObject;
             Destroy(gameObject);
+            Destroy(deathEffect, deathEffect.GetComponent<ParticleSystem>().main.duration);
         }
     }
 }
