@@ -167,6 +167,10 @@ MonoBehaviour:
   waveConfigs:
   - {fileID: 11400000, guid: a736ef2de31137e478baea5c37e59614, type: 2}
   - {fileID: 11400000, guid: 0a75bee1b83dd334c8d3bbd3e3c252fd, type: 2}
+  - {fileID: 11400000, guid: 461ccf6e65d804d4c921818e06ecac33, type: 2}
+  - {fileID: 11400000, guid: 7b1a887b0a589d744a55a8fb22f53b68, type: 2}
+  startingWave: 0
+  looping: 1
 --- !u!1 &1323623276
 GameObject:
   m_ObjectHideFlags: 0
