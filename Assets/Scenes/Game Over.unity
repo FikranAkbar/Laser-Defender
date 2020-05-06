@@ -121,6 +121,75 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &250736605
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 149.22664
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 294.9362
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -94.76195
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423785, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7730733206108423787, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d,
+        type: 3}
+      propertyPath: m_Name
+      value: Music Player
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a0bfd0fbeaa9a9c4ca078c85b9acf02d, type: 3}
 --- !u!1001 &739728085
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -666,25 +735,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2024498146}
-    - target: {fileID: 7681816567399200831, guid: af90201df15c4a540bbdec370555a2e8,
-        type: 3}
-      propertyPath: m_Name
-      value: Try Again Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 7681816568099536131, guid: af90201df15c4a540bbdec370555a2e8,
-        type: 3}
-      propertyPath: m_Name
-      value: Main Menu
-      objectReference: {fileID: 0}
     - target: {fileID: 7681816568099536141, guid: af90201df15c4a540bbdec370555a2e8,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2024498146}
-    - target: {fileID: 7681816568099536141, guid: af90201df15c4a540bbdec370555a2e8,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: LoadStartMenu
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af90201df15c4a540bbdec370555a2e8, type: 3}

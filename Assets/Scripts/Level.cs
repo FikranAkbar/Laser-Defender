@@ -5,12 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class Level : MonoBehaviour
 {
-
     [SerializeField] float delayInSeconds = 2f;
+    GameSession gameSession;
+
+    private void Awake()
+    {
+        gameSession = FindObjectOfType<GameSession>();
+    }
+
     public void LoadStartMenu()
     {
+        gameSession.ResetGame();
         SceneManager.LoadScene(0);
     }
+
     public void LoadGameScene()
     {
         SceneManager.LoadScene("Game");
