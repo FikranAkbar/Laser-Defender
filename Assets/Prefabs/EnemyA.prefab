@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1767966288895922874}
   - component: {fileID: 3886363401174164044}
   - component: {fileID: 2064576320857280525}
+  - component: {fileID: -5890932180216496230}
+  - component: {fileID: -9173875903374847098}
   m_Layer: 9
   m_Name: EnemyA
   m_TagString: Untagged
@@ -117,6 +119,10 @@ MonoBehaviour:
   projectileSpeed: 8
   explosion: {fileID: 6634064326127961427, guid: ee455846793df9c469578d440689b16f,
     type: 3}
+  deathSFX: {fileID: 8300000, guid: 13513599ecc355f49962653f5f551dac, type: 3}
+  deathVolume: 0.463
+  laserSFX: {fileID: 8300000, guid: a659efcabec8798459ebd2946c18f488, type: 3}
+  laserVolume: 0.907
 --- !u!68 &2064576320857280525
 EdgeCollider2D:
   m_ObjectHideFlags: 0
@@ -143,3 +149,37 @@ EdgeCollider2D:
   - {x: 0.09470723, y: 0.33099937}
   - {x: 0.28915036, y: 0.4124136}
   - {x: 0.44985524, y: 0.14841938}
+--- !u!50 &-5890932180216496230
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8456490818397289884}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &-9173875903374847098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8456490818397289884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ed9c44414411374586cf793d5881896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 200
